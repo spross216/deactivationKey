@@ -6,9 +6,9 @@ baseData = np.genfromtxt('test/packet_base2.txt', delimiter=',')
 weightData = np.genfromtxt('test/packet_weight2.txt', delimiter=',')
 
 
-# converts the arrays into 2D arrays with 8 columns
+# converts the arrays into 2D arrays with 4 columns
 
-numColumns = 8
+numColumns = 4
 numRows = baseData.size//numColumns
 baseData = baseData.reshape(numRows, numColumns)
 weightData = weightData.reshape(numRows, numColumns)
