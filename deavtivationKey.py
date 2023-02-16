@@ -35,4 +35,6 @@ sumArray = np.sum(newArray)
 
 remainder = sumArray % 4096
 roundedAnswer = remainder//1
-print(roundedAnswer)
+
+if __name__ == '__main__':
+    print(roundedAnswer)
